@@ -130,7 +130,7 @@ function displayQuestion() {
   console.log(correctanswer);
   console.log(incorrectanswer);
   console.log(quizquestion);
-  //homework randomise the answer before display - create function
+  //randomise the answer before display - create function
   question.innerHTML = quizquestion;
   answer1.innerHTML = correctanswer;
   answer2.innerHTML = incorrectanswer[0];
